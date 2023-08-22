@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { contactHub, url, hotChili } from "../../assets/index";
+import { contactHub, url, hotChili, teacherGo } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -39,6 +39,15 @@ const Projects = () => {
           src={url}
           gitHub="https://github.com/ImranMir32/URL-Shortener"
           live="https://magenta-pony-258013.netlify.app/"
+        />
+        <ProjectsCard
+          title="Teacher-Go"
+          des="Teacher-Go is a specialized transportation system enabling educators to easily reserve 
+          seats, ensuring a hassle-free commute for teachers within educational institutions. Simplifying
+          travel, it lets teachers focus on their core mission of teaching."
+          src={teacherGo}
+          gitHub="https://github.com/ImranMir32/Teacher-Go-Front-end"
+          // live="Not found"
         />
       </div>
     </section>
