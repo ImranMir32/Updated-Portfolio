@@ -1,6 +1,12 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { contactHub, url, hotChili, teacherGo } from "../../assets/index";
+import {
+  contactHub,
+  url,
+  hotChili,
+  teacherGo,
+  i_blogify,
+} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -23,6 +29,14 @@ const Projects = () => {
           src={contactHub}
           gitHub="https://github.com/ImranMir32/ContactHub-Frontend"
           live="https://singular-snickerdoodle-a4c86f.netlify.app/"
+        />
+        <ProjectsCard
+          title="I-Blogify"
+          des="I-Blogify is a user-centric blogging application leveraging Node.js and Express.js for robust 
+          server-side functionality. With user authentication and authorization mechanisms powered by JWT token."
+          src={i_blogify}
+          gitHub="https://github.com/ImranMir32/I-Blogify"
+          live="https://i-blogify.onrender.com"
         />
         <ProjectsCard
           title="Hot Chili"
