@@ -13,12 +13,12 @@ const Achievement = () => {
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Champion"
-            subTitle="Intra University Programming Contest-2022, UITS"
+            subTitle="UITS Victory Day Programming Contest, 2021"
             result="Success"
           />
           <ResumeCard
-            title="1st Runner Up"
-            subTitle="UITS Intra University Programming Contest, 2022"
+            title="Champion"
+            subTitle="Intra University Programming Contest-2022, UITS"
             result="Success"
           />
           <ResumeCard
@@ -27,24 +27,19 @@ const Achievement = () => {
             result="Success"
           />
           <ResumeCard
-            title="4th Position"
-            subTitle="UITS Codejhaj Intra University Programming Contest round-3"
+            title="1st Runner Up"
+            subTitle="UITS Intra University Programming Contest, 2022"
             result="Success"
           />
           <ResumeCard
             title="4th Position"
-            subTitle="UITS Victory Day Programming Contest, 2021"
+            subTitle="UITS Codejhaj Intra University Programming Contest round-3"
             result="Success"
           />
         </div>
       </div>
       <div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="5th Position"
-            subTitle="UITS Codejhaj Intra University Programming Contest round-2"
-            result="Success"
-          />
           <ResumeCard
             title="7th Position"
             subTitle="UPC Collaboration Contest, IUPC-2022"
@@ -63,6 +58,11 @@ const Achievement = () => {
           <ResumeCard
             title="93th Position"
             subTitle="Inter University Programming Contest (IUPC), RUET-2022"
+            result="Success"
+          />
+          <ResumeCard
+            title="Best Problem Setter"
+            subTitle="UITS Victory Day Programming Contest, 2023"
             result="Success"
           />
         </div>
