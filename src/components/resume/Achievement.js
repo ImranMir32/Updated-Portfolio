@@ -13,7 +13,7 @@ const Achievement = () => {
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Champion"
-            subTitle="UITS Victory Day Programming Contest, 2021"
+            subTitle="UITS CSE Day Programming Contest, 2021"
             result="Success"
           />
           <ResumeCard
@@ -33,7 +33,7 @@ const Achievement = () => {
           />
           <ResumeCard
             title="4th Position"
-            subTitle="UITS Codejhaj Intra University Programming Contest round-3"
+            subTitle="UITS Victory Day Programming Contest, 2021"
             result="Success"
           />
         </div>
@@ -41,8 +41,8 @@ const Achievement = () => {
       <div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="7th Position"
-            subTitle="UPC Collaboration Contest, IUPC-2022"
+            title="12th Position"
+            subTitle="UITS Collaboration Programming Contest (IUPC), 2022"
             result="Success"
           />
           <ResumeCard
@@ -51,18 +51,18 @@ const Achievement = () => {
             result="Success"
           />
           <ResumeCard
-            title="20th Position"
+            title="21th Position"
             subTitle="Ahmed Zubayer Inter University Programming Contest , IUPC-2023"
             result="Success"
           />
           <ResumeCard
-            title="93th Position"
+            title="63th Position"
             subTitle="Inter University Programming Contest (IUPC), RUET-2022"
             result="Success"
           />
           <ResumeCard
             title="Best Problem Setter"
-            subTitle="UITS Victory Day Programming Contest, 2023"
+            subTitle="UITS Victory Day Programming Contest, 2022"
             result="Success"
           />
         </div>

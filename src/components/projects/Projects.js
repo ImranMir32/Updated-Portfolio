@@ -6,6 +6,7 @@ import {
   hotChili,
   teacherGo,
   i_blogify,
+  cp,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -61,6 +62,16 @@ const Projects = () => {
           travel, it lets teachers focus on their core mission of teaching."
           src={teacherGo}
           gitHub="https://github.com/ImranMir32/Teacher-Go-Front-end"
+          // live="Not found"
+        />
+
+        <ProjectsCard
+          title="CP++"
+          des="CP++ is a learning-based website where people can learn competitive programming from scratch 
+          to advance. We have divided the learning process into three stages such as beginner, intermediate 
+          and advanced"
+          src={cp}
+          gitHub="https://github.com/ImranMir32/CP-Plus-Front-End"
           // live="Not found"
         />
       </div>
