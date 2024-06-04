@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { React, useState } from "react";
 import { TbFileCertificate } from "react-icons/tb";
 import { FaGlobe } from "react-icons/fa";
 import "./courses.css";
