@@ -6,14 +6,13 @@ import {
   js_c,
   p_c,
   sql_c,
-  // thesis,
   js_img,
   sql_img,
   p_img,
 } from "../../assets/index";
 import ProjectsCard from "./CoursesCard";
 
-const Projects = () => {
+const Courses = () => {
   return (
     <section
       id="courses"
@@ -83,4 +82,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Courses;
