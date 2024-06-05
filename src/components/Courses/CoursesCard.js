@@ -60,12 +60,6 @@ const CoursesCard = ({ title, des, src, imgFile, gitHub, live }) => {
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
             {des}
           </p>
-          <br></br>
-          <div>
-            <a href={src} download="Course Certificate">
-              <button className="download">Download</button>
-            </a>
-          </div>
         </div>
       </div>
     </div>

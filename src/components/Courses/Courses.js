@@ -57,26 +57,6 @@ const Courses = () => {
           gitHub="https://www.hackerrank.com/certificates/3c026efa38b5"
           live="https://www.hackerrank.com/"
         />
-        {/* <ProjectsCard
-          title="Teacher-Go"
-          des="Teacher-Go is a specialized transportation system enabling educators to easily reserve 
-          seats, ensuring a hassle-free commute for teachers within educational institutions. Simplifying
-          travel, it lets teachers focus on their core mission of teaching."
-          src={thesis}
-          imgFile={js_img}
-          gitHub="https://github.com/ImranMir32/Teacher-Go-Front-end"
-          // live="Not found"
-        /> */}
-
-        {/* <ProjectsCard
-          title="CP++"
-          des="CP++ is a learning-based website where people can learn competitive programming from scratch 
-          to advance. We have divided the learning process into three stages such as beginner, intermediate 
-          and advanced"
-          src={cp}
-          gitHub="https://github.com/ImranMir32/CP-Plus-Front-End"
-          // live="Not found"
-        /> */}
       </div>
     </section>
   );
