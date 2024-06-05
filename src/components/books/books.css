@@ -19,6 +19,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   max-width: 750px; /* Adjust maximum width if needed */
   max-height: 90vh; /* Adjust maximum height if needed */
+  max-width: 80vw;
 }
 
 .model-button {
@@ -33,4 +34,18 @@
 
 .modal img:hover {
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  /* Adjust breakpoint as needed */
+  .modal-content {
+    max-width: 90vw; /* Increase max-width for larger screens */
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Adjust breakpoint as needed */
+  .modal-content {
+    max-width: 1000px; /* Even wider for extra-large screens (optional) */
+  }
 }
