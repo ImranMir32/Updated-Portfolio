@@ -39,6 +39,11 @@ import contest_ruet from "./images/achievements/contest_ruet.pdf";
 import contest_victory from "./images/achievements/contest_victory.pdf";
 import contest_black from "./images/achievements/contest_black.pdf";
 
+import activity_img from "./images/activities/activity_img.png";
+import activity_img2 from "./images/activities/activity_img2.png";
+import activity from "./images/activities/Activity.pdf";
+import activity2 from "./images/activities/Activity2.pdf";
+
 export {
   logo,
   bannerImg,
@@ -78,4 +83,8 @@ export {
   contest_ruet,
   contest_victory,
   contest_black,
+  activity_img,
+  activity_img2,
+  activity,
+  activity2,
 };

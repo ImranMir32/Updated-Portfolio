@@ -11,6 +11,7 @@ import Resume from "./components/resume/Resume";
 import Testimonial from "./components/tesimonial/Testimonial";
 import Books from "./components/books/Books";
 import Achievements from "./components/achievements/Achievements";
+import Activities from "./components/activities/Activities";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Books />
         <Courses />
         <Achievements />
+        <Activities />
         <Testimonial />
         <Contact />
         <Footer />
