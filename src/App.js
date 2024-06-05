@@ -10,6 +10,7 @@ import Courses from "./components/Courses/Courses";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/tesimonial/Testimonial";
 import Books from "./components/books/Books";
+import Achievements from "./components/achievements/Achievements";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Projects />
         <Books />
         <Courses />
+        <Achievements />
         <Testimonial />
         <Contact />
         <Footer />

@@ -29,7 +29,11 @@ export const navLinksdata = [
     title: "Courses",
     link: "courses",
   },
-
+  {
+    _id: 1009,
+    title: "Achievements",
+    link: "achievements",
+  },
   {
     _id: 1005,
     title: "Testimonial",

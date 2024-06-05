@@ -21,10 +21,23 @@ import sql_img from "./images/courses/sql_img.png";
 import thesis from "./images/books/Thesis book.pdf";
 import teacher_book from "./images/books/Teacher book.pdf";
 import cp_book from "./images/books/CP book.pdf";
-
 import thesis_img2 from "./images/books/Thesis_img2.png";
 import teacher_img from "./images/books/teacher_img.png";
 import cp_img from "./images/books/cp_img.png";
+import problem_setter_img from "./images/achievements/problem_setter_img.png";
+import problem_setter_img2 from "./images/achievements/problem_setter_img2.png";
+
+import contest_col_img from "./images/achievements/contest_col_img.png";
+import contest_ruet_img from "./images/achievements/contest_ruet_img.png";
+import contest_victory_img from "./images/achievements/contest_victory_img.png";
+import contest_black_img from "./images/achievements/contest_black_img.png";
+
+import problem_setter from "./images/achievements/problem_setter.pdf";
+import problem_setter2 from "./images/achievements/problem_setter2.pdf";
+import contest_col from "./images/achievements/contest_col.pdf";
+import contest_ruet from "./images/achievements/contest_ruet.pdf";
+import contest_victory from "./images/achievements/contest_victory.pdf";
+import contest_black from "./images/achievements/contest_black.pdf";
 
 export {
   logo,
@@ -53,4 +66,16 @@ export {
   cp_img,
   teacher_book,
   cp_book,
+  problem_setter_img,
+  problem_setter_img2,
+  contest_col_img,
+  contest_ruet_img,
+  contest_victory_img,
+  contest_black_img,
+  problem_setter,
+  problem_setter2,
+  contest_col,
+  contest_ruet,
+  contest_victory,
+  contest_black,
 };
