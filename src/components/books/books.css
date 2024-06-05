@@ -1,0 +1,36 @@
+.modal {
+  margin-top: 48px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  display: flex; /* Center the modal content vertically and horizontally */
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  max-width: 750px; /* Adjust maximum width if needed */
+  max-height: 90vh; /* Adjust maximum height if needed */
+}
+
+.model-button {
+  color: black;
+  font-weight: bold;
+}
+
+.modal iframe {
+  width: 700px;
+  height: 80vh;
+}
+
+.modal img:hover {
+  cursor: pointer;
+}

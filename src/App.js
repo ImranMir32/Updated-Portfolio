@@ -9,6 +9,7 @@ import Projects from "./components/projects/Projects";
 import Courses from "./components/Courses/Courses";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/tesimonial/Testimonial";
+import Books from "./components/books/Books";
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
       <div className="max-w-screen-xl mx-auto">
         <Banner />
         <Features />
-        <Projects />
-        <Courses />
         <Resume />
+        <Projects />
+        <Books />
+        <Courses />
         <Testimonial />
         <Contact />
         <Footer />

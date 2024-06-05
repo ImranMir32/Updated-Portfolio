@@ -18,7 +18,13 @@ import p_c from "./images/courses/Problem_solving_intermediate certificate.pdf";
 import p_img from "./images/courses/p_img.png";
 import sql_c from "./images/courses/Sql_intermediate certificate.pdf";
 import sql_img from "./images/courses/sql_img.png";
-import thesis from "./images/courses/Thesis Paper.pdf";
+import thesis from "./images/books/Thesis book.pdf";
+import teacher_book from "./images/books/Teacher book.pdf";
+import cp_book from "./images/books/CP book.pdf";
+
+import thesis_img2 from "./images/books/Thesis_img2.png";
+import teacher_img from "./images/books/teacher_img.png";
+import cp_img from "./images/books/cp_img.png";
 
 export {
   logo,
@@ -42,4 +48,9 @@ export {
   js_img,
   sql_img,
   p_img,
+  thesis_img2,
+  teacher_img,
+  cp_img,
+  teacher_book,
+  cp_book,
 };
