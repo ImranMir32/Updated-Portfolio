@@ -9,6 +9,7 @@ import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
 import i_blogify from "./images/projects/I-blogify.png";
+import doctors_junction from "./images/projects/doctors-junction.png";
 import cp from "./images/projects/cp.png";
 import c from "./images/courses/COURSE CERTIFICATE of C.pdf";
 import c_img from "./images/courses/c_img.png";
@@ -56,6 +57,7 @@ export {
   quote,
   contactImg,
   i_blogify,
+  doctors_junction,
   cp,
   c,
   js_c,

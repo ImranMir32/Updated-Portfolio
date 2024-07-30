@@ -7,6 +7,7 @@ import {
   teacherGo,
   i_blogify,
   cp,
+  doctors_junction,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -23,6 +24,15 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <ProjectsCard
+          title="Doctors🔗Junction"
+          des="Doctors-Junction is your go-to platform for hassle-free medical appointments. Users can 
+          easily book specialist doctors, and doctors can join our panel. Our notifications keep 
+          everyone informed"
+          src={doctors_junction}
+          gitHub="https://github.com/ImranMir32/Doctors-Junction-client-"
+          live="https://doctors-junction.netlify.app"
+        />
         <ProjectsCard
           title="ContactHub"
           des="ContactHub is an intuitive web app for secure user authentication and efficient contact 
