@@ -1,0 +1,16 @@
+.download {
+  color: #ff014f;
+  cursor: pointer;
+  padding: 7px 50px;
+  font-size: 1.5rem;
+  background: transparent;
+  border: 1.5px solid white;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-right: 7px;
+}
+
+.download:hover {
+  background: #ff014f;
+  color: white;
+}
