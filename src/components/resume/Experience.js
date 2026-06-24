@@ -16,6 +16,19 @@ const Experience = () => {
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
+            title="Junior Software Engineer"
+            subTitle="Orbit Informatics - (Sep 2024 - Aug 2025)"
+            result="Dhaka, Bangladesh (Hybrid)"
+            des="Worked on building scalable and efficient web applications using Node.js and React.js. Developed RESTful APIs, integrated SQL and NoSQL databases, and focused on writing clean, maintainable, and high-performance code."
+          />
+
+          <ResumeCard
+            title="Junior Software Engineer"
+            subTitle="Boolean Solution Technology - (Aug 2023 - Sep 2024)"
+            result="Dhaka, Bangladesh (Hybrid)"
+            des="Worked as a backend-focused software engineer contributing to web application development, API design, and database integration. Collaborated with teams to deliver scalable and maintainable software solutions."
+          />
+          <ResumeCard
             title="Software Engineer Trainee"
             subTitle="Brain Station-23 - (2022 - 2022)"
             result="Dhaka"
@@ -31,7 +44,7 @@ const Experience = () => {
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Programming Instructor and Mentor"
-            subTitle="UITS - (2021 - 2023)"
+            subTitle="UITS - (2022 - 2024)"
             result="Dhaka"
             des="University of Information Technology and Sciences (UITS), the first IT-based private University in Bangladesh."
           />
